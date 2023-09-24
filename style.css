@@ -1,0 +1,217 @@
+body{
+    width: 100%;
+    margin-left: -0.01%;
+}
+#head{
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+}
+#iospinelogo{
+    width: 25%;
+    margin-top: -1%;
+    margin-left: 2%;
+}
+.fa-solid{
+    float: right;
+    font-size: 150%;
+    color: #741e1e; ;
+}
+.fa-solid {
+    font-size: 150%;
+    margin-right: 4%;
+    color: #741e1e;;
+}
+#img{
+    width: 100%;
+    margin-top: 15%;
+}
+#iospine{
+    margin-top: 2%;
+    padding-bottom: 10%;
+    padding-top: 0.5%;
+    color: white;
+    background-color: #a41818;
+    text-align: center;
+
+}
+#courses{
+    /* margin-bottom: 5px; */
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    outline:none;
+    border: none;
+    border-radius: 6px;
+    font-size: 100%;
+    font-weight: 550;
+}
+#courses option{
+    color:black;
+    background-color: white;
+}
+#courses > option{
+    color: white;
+    background-color: #741e1e;
+}
+#form > p{
+    margin-left: 7%; 
+    text-align: left;
+}
+#form > label{
+    display: inline-block;
+    margin-left: -28%; 
+
+}
+#form > input[type="radio"]{
+    margin-left: -90%; 
+
+}
+input{
+    width: 60%;
+    font-size: 110%;
+    padding: 3%;
+}
+#Subscribe{
+    margin-top: 5%;
+    color: white;
+    background-color:#a41818;
+    border: 1px solid white;
+    font-size: 100%;
+    padding: 5%;
+}
+footer{
+    margin-bottom: -15%;
+    background-color: black;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+}
+#ft2{
+    border-left: 2px solid white;
+}
+#ft1 li{
+    list-style-type: none;
+    padding: 10%;
+    margin-left: -74%;
+
+}
+#ft1 li a{
+    color: white;
+    text-decoration: none;
+}
+#ft2 li{
+    list-style-type: none;
+    padding: 10%;
+}
+#ft2 li a{
+    color: white;
+    text-decoration: none;
+}
+#logs{
+    color: white;
+    text-align: center;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+}
+#icon{
+    font-size: 200%;
+    padding-right: 3%;
+    color: white;
+
+}
+#ft-end{
+    text-align: center;
+    padding-bottom: 10%;
+}
+#ft-p{
+    margin-top: -4%;
+}
+@media screen and (min-width: 800px){
+    HTML5 display-role reset for older browsers 
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    } 
+    body{
+        width: 100%;
+        margin-left: -0.01%;
+    }
+    #iospinelogo{
+        width: 10%;
+        margin-top: -1%;
+        margin-bottom: -1%;
+        margin-left: 2%;
+    }
+     .fa-solid{
+        float: right;
+        font-size: 200%;
+        color: #741e1e; ;
+        margin-right: 4%;
+    }
+    #img{
+        width: 70%;
+        margin-top: 7%;
+        margin-left: 15%;
+    }
+    #courses{
+        width: 40%;
+        font-size: 100%;
+    }
+   #allDisplay{
+        /* border-color: 2px solid black; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;  
+   }
+   #form > label{
+        margin-left: -28%; 
+
+    }
+    #form > input[type="radio"]{
+        margin-left: -60%; 
+
+    }
+   #display{
+        text-align: right;
+   }
+   #moreinfo{
+    margin-top:5%;
+   }
+   .form-info{
+    padding: -90%;
+   }
+   input{
+        font-size: 100%;
+        padding: 1%;
+    }
+    #Subscribe{
+        padding: 1%;
+        margin-bottom: -14%;
+    }
+    #icons{
+        padding-left: 7.5%;
+    }
+    #icon{
+        font-size: 150%;
+        padding-right: 5%;
+
+    }
+    #ft-end{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    #ft-p{
+        margin-top: -4%;
+    }
+
+
+}
